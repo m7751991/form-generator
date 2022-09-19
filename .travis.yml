@@ -1,0 +1,9 @@
+sudo: false
+language: node_js
+node_js:
+  - 16
+git:
+  depth: 1
+  install: yarn
+# 指定了缓存的内容，这里是yarn安装的东西，既node_modules
+cache: yarn
